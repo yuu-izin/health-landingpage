@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Landing Page</title>
+  <link href="https://cdn.tailwindcss.com">
+</head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0/dist/tailwind.min.css" rel="stylesheet">
+<body class="bg-slate-100">  
+<!-- Navbar start -->
+<nav class="fixed w-full bg-white p-4 shadow-md z-50 px-20">
+    <div class="container mx-auto flex flex-wrap items-center justify-between">
+        <div class="flex flex-col items-center">
+            <span class="text-lg font-semibold text-[#4D4343]">Bantu👋🏻</span>
+            <span class="text-lg font-bold text-[#5669FF]">WARGA</span>
+        </div>        
+
+        <div class="hidden md:flex flex-wrap space-x-4 md:space-x-12">
+            <a href="#home" class="font-semibold text-gray-700 hover:text-[#5669FF]">Home</a>
+            <a href="#pricing" class="font-semibold text-gray-700 hover:text-[#5669FF]">Pricing</a>
+            <a href="#about" class="font-semibold text-gray-700 hover:text-[#5669FF]">About</a>
+            <a href="#contact" class="font-semibold text-gray-700 hover:text-[#5669FF]">Contact</a>
+        </div>
+
+        <div>
+            <a href="#" class="bg-[#5669FF] text-white px-4 py-2 rounded-lg hover:bg-[#4754d0]">Get Demo</a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar end -->
+<main id="home" class="px-6">
+        <!-- Hero section start -->
+        <section class="relative">
+            <div class="container mx-auto p-4 pt-32">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div class="flex flex-col justify-center ms-12 h-auto md:h-[30rem]" data-aos="fade-right">
+                        <h2 class="text-4xl md:text-6xl font-semibold">
+                            <span class="text-[#5669FF]">Saling</span> Bantu👋🏻
+                        </h2>
+                        <h2 class="text-4xl md:text-6xl font-semibold">
+                            Sesama <span class="text-[#5669FF]">Warga</span>
+                        </h2>
+                        <p class="mt-4 text-gray-600 text-sm md:text-base">
+                            Aplikasi Bantu warga merupakan aplikasi berbasis mobile dengan <br> konsep kesehatan yang berkaitan dengan keadaan covid sekarang
+                        </p>
+                        <form class="mt-4 relative">
+                            <input type="email" id="email" name="email" class="mt-1 p-2 border border-gray-300 rounded-md w-full md:w-[75%] pl-10" placeholder="Email address...."/>
+                            <div class="absolute inset-y-0 lg:left-[385px] hidden lg:flex items-center pl-2 cursor-pointer ">
+                                <svg width="30" height="20" viewBox="0 0 54 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="54" height="37" rx="10" fill="#5669FF"/>
+                                    <path d="M32.0769 23.8462C33.9468 21.8212 37.7471 17.8016 37.9897 17.9231C38.2322 18.0446 34.1489 14.025 32.0769 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M38 17.9231L16 17.9231" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <div class="relative flex justify-center items-center mt-4 md:mt-0" data-aos="fade-left">
+                        <div class="flex justify-center items-center w-full">
+                            <div class="relative w-full flex justify-center items-center">
+                                <img src="img/Welcome.png" alt="Gambar 1" class="w-1/2 max-w-full object-cover absolute left-0"/>
+                                <img src="img/Vitamin.png" alt="Gambar 2" class="w-2/3 max-w-full object-cover relative"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Hero section end -->
+    
+    <!-- Pricing section start -->
+    <div class="py-4 text-center">
+        <h2 class="font-semibold text-2xl md:text-4xl">What's <span class="text-[#5669FF]">Bantu Warga</span></h2>
+        <p class="mt-4 text-[#4A4545] text-sm md:text-base">Aplikasi Bantu warga disini anda bisa melihat keadaan pandemi <br>covid di Indonesia dari penyebaran covid, berita, data</p>
+    </div>
+
+    <section class="pt-10 relative z-30" id="pricing">
+        <div class="container mx-auto p-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-0 md:px-24">
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo1.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Donor darah</h3>
+                    <p class="text-gray-500 mt-2">
+                        Cek ketersediaan donor darah atau mau donor darah
+                    </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo2.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Donasi uang</h3>
+                    <p class="text-gray-500 mt-2">
+                        Bantu teman - teman kita yang sedang mengalami kesulitan finansial
+                    </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo3.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Donasi alatmedis</h3>
+                    <p class="text-gray-500 mt-2">
+                        Bantu para nakes yang sedang berjuang melawan pandemi
+                    </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo4.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Donasi vitamin</h3>
+                    <p class="text-gray-500 mt-2">
+                        Bantu teman - teman kita yang sedang mengalami sakit 
+                    </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo5.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Cek vaksinisasi</h3>
+                    <p class="text-gray-500 mt-2">
+                        Cek ketersediaan vaksin dan lokasi vaksinasi di dekat lokasi anda
+                    </p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-2 text-center" data-aos="flip-up">
+                    <div class="w-20 h-20 flex justify-center items-center mx-auto">
+                        <img src="img/logo6.png" alt="logo1" class="mt-5">
+                    </div>
+                    <h3 class="text-xl font-extrabold mt-4">Ketersediaan ambulance</h3>
+                    <p class="text-gray-500 mt-2">
+                        Cek ketersediaan ambulan dan lokasi rumah sakit yang menyediakan
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center my-12">
+            <a href="#" class="bg-[#5669FF] text-white px-5 py-2 rounded-md hover:bg-blue-700 hover:text-white transition duration-300" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                Load more
+            </a>
+        </div>
+    </section>
+    <!-- Pricing section end -->
+
+    <!-- About section start -->
+    <section class="container mx-auto p-6" id="about">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <!-- donwload start-->
+            <div class="relative flex justify-center items-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="absolute bg-slate-300 rounded-full min-w-[300px] min-h-[300px] -translate-x-2 translate-y-3 shadow-lg md:min-w-[580px] md:min-h-[580px]"></div>
+                <div class="absolute bg-[#5669FF] rounded-full min-w-[250px] min-h-[250px] -translate-x-2 translate-y-2 md:min-w-[550px] md:min-h-[550px]"></div>
+                <img src="img/Mask Group.png" alt="Download Gambar" class="relative w-full h-auto z-10 -translate-x-2 -translate-y-10"/>
+            </div>
+            
+            <div>
+                <p class="text-[#5669FF] font-bold mb-4"><span class="text-lg mr-2">|</span>Download Now</p>
+                <h2 class="text-4xl md:text-6xl font-bold text-black mb-4">Get <span class="text-[#5669FF]">the app</span></h2>
+                <p class="text-gray-600 text-sm md:text-lg mb-8">Aplikasi kami tersedia di play store, app store, anda dapat <br> langsung mendownloadnya secara gratis dan nikmati fitur <br> aplikasi yang sudah kami sediakan</p>
+    
+                <div class="grid grid-cols-2 gap-4">
+                    <img src="img/googleplay.png" alt="Google Play" class="w-32 md:w-50 h-auto rounded-lg" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"/>
+                    <img src="img/appstore.png" alt="App Store" class="w-32 md:w-50 h-auto rounded-lg -ml-16" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine"/>
+                </div>
+            </div>
+        </div>
+        <!-- donwload end -->
+
+        <!-- information start -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-6">
+            <div>
+                <p class="text-[#5669FF] mb-4 font-bold"><span class="font text-lg mr-2">|</span>Information</p>
+                <h2 class="text-4xl md:text-6xl font-bold mb-10">Covid <span class="text-[#5669FF]">information</span></h2>
+                <div class="flex items-center mb-4" data-aos="zoom-out">
+                    <img src="img/clock (2) 1.png" alt="Information Time" class="-mt-10 mr-4"/>
+                    <div class="flex flex-col">
+                        <p class="text-lg text-black mb-2 font-bold">Informasi tepat waktu</p>
+                        <p class="text-gray-800">Informasi yang anda dapatkan selalu update oleh kami, karena kami mengutamakan informasi yang akurat dan cepat.</p>
+                    </div>
+                </div>
+                <div class="flex items-center mb-4" data-aos="zoom-out">
+                    <img src="img/people.png" alt="Information Time" class="-mt-10 mr-4"/>
+                    <div class="flex flex-col">
+                        <p class="text-lg text-black mb-2 font-bold">Informasi terpercaya</p>
+                        <p class="text-gray-800">Informasi yang anda temukan dan baca dapat dipercaya adanya 
+                            karena kami telah berkerja sama dengan para sukarelawan kami
+                            untuk membagi informasi yang benar adanyanformasi yang anda dapatkan selalu update oleh kami, karena kami mengutamakan informasi yang akurat dan cepat.</p>
+                    </div>
+                </div>
+                <div class="flex items-center mb-4" data-aos="zoom-out">
+                    <img src="img/puzzle 1.png" alt="Information Time" class="-mt-10 mr-4"/>
+                    <div class="flex flex-col">
+                        <p class="text-lg text-black mb-2 font-bold">Informasi relevan</p>
+                        <p class="text-gray-800">Informasi yang anda temukan dan baca dapat hanya tentang 
+                            masalah kesehatan , tips - tips , pandemi covid , dan sejenisnya</p>
+                    </div>
+                </div>
+        
+            </div>
+            
+            <div class="relative w-full h-auto">
+                <img src="img/maps1.png" alt="Maps" class="h-auto translate-x-0 md:translate-x-32 translate-y-0 md:translate-y-20"/>
+                <img src="img/Berita page 1.png" alt="News" class="absolute top-4 left-4 w-full md:w-3/4 h-auto -translate-x-0 md:-translate-x-20"/>
+            </div>
+            <div class="text-left my-10" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                <a href="#" class="bg-[#5669FF] text-white px-5 py-2 rounded-lg hover:bg-blue-700 hover:text-white transition duration-200">
+                    See demo
+                </a>
+            </div>
+        </div>
+        <!-- information end -->
+    </section>
+    <!-- About section end -->
+
+    <!-- Contact section start -->
+    <section class="max-w-4xl mx-6 p-6 bg-white shadow-lg rounded-lg" id="contact" data-aos="flip-up">
+        <h2 class="text-center text-2xl font-bold text-[#5669FF] mb-1">Contact</h2>
+        <hr class="w-[90px] mx-auto border-t-2 border-blue-500 mb-5"/>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- kolom kiri -->
+            <div>
+                <form action="#" method="POST" class="space-y-4">
+                    <h2 class="text-black font-semibold mb-5">Leave us a message</h2>
+                    <div class="relative mb-4">
+                        <label for="name" class="absolute left-2 top-0 transform -translate-y-1/2 px-2 bg-white text-gray-700 font-medium">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg pt-3 pb-2" placeholder="Your name" required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg mb-3" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="mt-3 w-full md:w-[400px] bg-[#5669FF] text-white px-5 py-3 rounded-lg hover:bg-blue-700 transition duration-200">Send</button>
+                </form>
+            </div>
+
+            <!-- kolom kanan -->
+            <div class="space-y-4 mt-10">
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-4">
+                        <img src="img/svg/locate.svg" class="w-6 h-6"/>
+                        <p class="text-gray-700 font-semibold">Infomation technologies building, Kudus, Jawa Tengah, Indonesia</p>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="img/svg/telephone.svg" class="w-6 h-6"/>
+                        <p class="text-gray-700 font-semibold">+021213414115151</p>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="img/svg/mail.svg" class="w-6 h-6"/>
+                        <p class="text-gray-700 font-semibold">hello1234@info.com</p>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <img src="img/svg/Youtube.svg" class="w-6 h-6 text-gray-700 hover:text-[#5669FF]"/>
+                    <img src="img/svg/Instagram.svg" class="w-6 h-6 text-gray-700 hover:text-[#5669FF]"/>
+                    <img src="img/svg/Facebook.svg" class="w-6 h-6 text-gray-700 hover:text-[#5669FF]"/>
+                    <img src="img/svg/Twitter.svg" class="w-6 h-6 text-gray-700 hover:text-[#5669FF]"/>
+                </div>
+                <img src="img/maps2.png" alt="Maps Image"/>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section end -->
+</main>
+
+
+<!-- footer start -->
+<footer class="w-full bg-[#5669FF] text-white py-12 mt-20">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Bagian 1 -->
+        <div class="px-4 md:px-20">
+            <div class="flex flex-col items-start">
+                <span class="text-lg font-semibold text-[#4D4343]">Bantu👋🏻</span>
+                <span class="text-lg font-bold text-white">WARGA</span>
+                <p class="mt-5 text-left">
+                    Kami adalah aplikasi pelayanan <br> masyarakat dalam kasus kesehatan <br> terutama covid 19
+                </p>
+            </div>
+
+            <div class="flex space-x-4 md:space-x-10 mt-5 md:mt-10">
+                <img src="img/svg/facebookwhite.svg" class="w-6 h-6 md:w-8 md:h-8" alt="Facebook">
+                <img src="img/svg/twitterwhite.svg" class="w-6 h-6 md:w-8 md:h-8" alt="Twitter">
+                <img src="img/svg/instagramwhite.svg" class="w-6 h-6 md:w-8 md:h-8" alt="Instagram"> 
+            </div>
+        </div>
+
+        <!-- Bagian 2 -->
+        <div class="px-4 md:px-0 flex flex-col justify-between">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:justify-items-end">
+                <div class="flex flex-col">
+                    <span class="font-bold">Tentang Kami</span>
+                    <a href="#" class="text-white mt-4 hover:underline">Tentang Kami</a>
+                    <a href="#" class="text-white mt-2 hover:underline">Fitur</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold">Perusahaan</span>
+                    <a href="#" class="text-white mt-4 hover:underline">Tim Kami</a>
+                    <a href="#" class="text-white mt-2 hover:underline">Mitra Kami</a>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-bold">Dukungan</span>
+                    <a href="#" class="text-white mt-4 hover:underline">Pusat Dukungan</a>
+                    <a href="#" class="text-white mt-2 mb-2 hover:underline">Hubungi Kami</a>
+                </div>
+            </div>
+
+            <!-- Bagian Copyright -->
+            <div class="text-white text-center md:text-right mt-6">
+                <p>Copyright BantuWarga. All rights reserved</p>
+            </div>            
+        </div>
+    </div>
+</footer>
+
+<!-- footer end -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        var mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+</body>
+</html>
